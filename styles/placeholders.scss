@@ -1,0 +1,8 @@
+@import "palette";
+
+%blog-link-style {
+    color: $primary-background;
+    text-decoration: none;
+    background-color: $primary-text;
+    border-radius: 5px;
+}
