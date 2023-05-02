@@ -3,8 +3,10 @@
 
 .blogs {
     max-width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    background-color: $off-black;
 
     &__post {
         display: flex;
