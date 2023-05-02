@@ -1,0 +1,126 @@
+@import "./../palette";
+
+%text-overlay {
+    width: 30%;
+    position: absolute;
+    color: $primary-background;
+    // top: 300px;
+    // left: 50px;
+    text-shadow: 2px 2px $off-black;
+    text-align: center;
+    font-size: 36px;
+}
+
+.action {
+    color: $primary-text;
+    // margin: 0px;
+    // padding: 0px;
+
+    &__top {
+        position: relative;
+
+        &--main-header {
+            position: absolute;
+            left: 35vw;
+            // top: 15px;
+            font-size: 128px;
+            font-style: italic;
+            text-align: center;
+            text-shadow: 4px 4px $off-black;
+        }
+
+        &--background {
+            img {
+                width: 100vw;
+                object-position: 50% 100%;
+            }
+        }
+
+        &--text-left {
+            @extend %text-overlay;
+            top: 250px;
+            left: 50px;
+        }
+
+        &--text-right {
+            @extend %text-overlay;
+            top: 450px;
+            right: 50px;
+        }
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--divider-img {
+            background-color: $off-black;
+
+            img {
+                height: 400px;
+            }
+        }
+
+        &--part {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+
+            h3 {
+                font-size: 48px;
+            }
+
+            h4 {
+                font-size: 32px;
+            }
+        }
+
+        &--paras {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 24px;
+            }
+
+            ul {
+                font-size: 24px;
+            }
+        }
+
+        &--divider {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 800px;
+            background-color: $off-black;
+        }
+
+        &--illustration {
+            color: $primary-background;
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                margin: 50px 20px;
+                box-shadow: 5px 5px $primary-text;
+                width: 20%;
+
+                border-radius: 15px;
+            }
+        }
+
+        &--illustration-legend {
+            margin: 20px;
+            color: $primary-background;
+            text-shadow: 2px 2px $off-black;
+            text-align: center;
+            font-size: 36px;
+            font-style: italic;
+        }
+    }
+}

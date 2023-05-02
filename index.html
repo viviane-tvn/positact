@@ -5,14 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
         <title>Climate Action</title>
     </head>
     <body>
         <!-- Navigation -->
         <nav class="nav">
             <div class="nav__links">
-                <a href="#blogs">POSTS</a>
                 <a href="#ourAction">OUR ACTION</a>
+                <a href="#blogs">POSTS</a>
             </div>
         </nav>
 
@@ -20,6 +27,7 @@
             <!-- Landing -->
 
             <section class="landing">
+                <h1>PositAct</h1>
                 <img
                     class="landing__img"
                     src="./assets/images/pic2.jpg"
@@ -28,6 +36,30 @@
             </section>
 
             <!-- Blog Posts -->
+            <article id="ourAction" class="our-action">
+                <img
+                    class="our-action__img"
+                    src="./assets/images/phone-nature1.jpg"
+                />
+                <div class="our-action__text">
+                    <h2>What we do</h2>
+                    <p>
+                        Empowering individuals to take climate action by
+                        providing personalized recommendations, tracking
+                        progress, and connecting with others in a
+                        community-driven platform.
+                    </p>
+                    <p>
+                        By making sustainable living easy and fun, our app
+                        contributes to the global effort to combat climate
+                        change and create a better future for our planet.
+                    </p>
+                    <a class="our-action__link" href="./pages/our-action.html"
+                        >LEARN MORE</a
+                    >
+                </div>
+            </article>
+
             <section id="blogs" class="blogs">
                 <div class="blogs__post">
                     <img src="./assets/images/pic3.jpeg" />
@@ -79,26 +111,30 @@
             </section>
 
             <!-- Our Action -->
-            <article id="ourAction" class="our-action">
-                <img class="our-action__img" src="./assets/images/pic5.jpeg" />
-                <div class="our-action__text">
-                    <h2>What we do</h2>
-                    <p>
-                        Short text about what we do: Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Repudiandae corrupti
-                        cumque ipsam doloribus quidem, porro repellendus rem.
-                        Nihil eius quibusdam minima qui libero inventore porro
-                        placeat facilis facere voluptate? Sunt.
-                    </p>
-                </div>
-                <a class="our-action__link" href="./pages/our-action.html"
-                    >LEARN MORE</a
-                >
-            </article>
         </main>
 
+        <!-- Acknowledgements  -->
         <footer>
-            <!-- Acknowledgements  -->
+            <div>
+                <p>
+                    We acknowledge the True Locals, the First Nations people who
+                    have been custodians of land, waters and culture for tens of
+                    thousands of years.
+                </p>
+                <p>
+                    We pay respects to First Nations Elders past, present and
+                    emerging.
+                </p>
+                <p>
+                    We recognise that Indigenous peoples are on the front line
+                    of climate impacts, and must play a critical role in shaping
+                    climate solutions.
+                </p>
+                <p>
+                    This website was created on Gadigal land in Australia, where
+                    sovereignty was never ceded.
+                </p>
+            </div>
         </footer>
     </body>
 </html>

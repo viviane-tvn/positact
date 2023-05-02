@@ -1,5 +1,21 @@
+@import "palette";
+
 .landing {
+    h1 {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 128px;
+        text-shadow: 4px 4px $off-black;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: 500px;
+        color: $primary-background;
+    }
+
     &__img {
+        position: relative;
+
         width: 100vw;
         filter: sepia(40%);
     }

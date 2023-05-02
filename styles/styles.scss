@@ -2,11 +2,34 @@
 @use "navigation";
 @use "blogs";
 @use "our-action";
+@use "./pages/page.our-action.scss";
 @import "palette";
 
 body {
+    font-family: "Raaleway", sans-serif;
+    color: $primary-text;
     padding: 0px;
     margin: 0px;
 
     background-color: $primary-background;
+
+    footer {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 100;
+
+        color: $primary-text;
+        height: 200px;
+        margin: 40px;
+
+        div {
+            width: 75%;
+            text-align: center;
+
+            p {
+                margin: 0px;
+            }
+        }
+    }
 }
