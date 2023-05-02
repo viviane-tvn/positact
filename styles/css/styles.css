@@ -47,10 +47,10 @@
   display: flex;
   justify-content: space-around;
   padding: 30px;
-  background-color: #030512;
+  background-color: rgba(3, 5, 18, 0.7);
 }
 .blogs__post img {
-  width: 30%;
+  width: 20%;
   border-radius: 10px;
 }
 .blogs__post--reversed {
@@ -59,13 +59,13 @@
 .blogs__post--text {
   font-size: 24px;
   font-weight: 200;
-  color: #0180b6;
+  color: #e2ecf9;
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-shadow: 0.2px 0.2px #e2ecf9;
+  text-shadow: 0.2px 0.2px #0180b6;
 }
 .blogs__post--text h3 {
   font-weight: 600;

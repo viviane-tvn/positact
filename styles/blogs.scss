@@ -11,10 +11,10 @@
         justify-content: space-around;
         padding: 30px;
 
-        background-color: $off-black;
+        background-color: rgb(3, 5, 18, 0.7);
 
         img {
-            width: 30%;
+            width: 20%;
             border-radius: 10px;
         }
 
@@ -25,13 +25,13 @@
         &--text {
             font-size: 24px;
             font-weight: 200;
-            color: $primary-text;
+            color: $primary-background;
             width: 40%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            text-shadow: 0.2px 0.2px $primary-background;
+            text-shadow: 0.2px 0.2px $primary-text;
 
             h3 {
                 font-weight: 600;
@@ -51,17 +51,3 @@
         }
     }
 }
-
-// &__links {
-//     display: flex;
-//     justify-content: space-around;
-//     padding: 30px;
-//     width: 30%;
-//     font-size: 24px;
-//     font-weight: bold;
-
-//     :link {
-//         color: $primary-text;
-//         text-decoration: none;
-//     }
-// }
