@@ -5,17 +5,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2696&q=80");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    // background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2696&q=80");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // position: relative;
 
     width: 100vw;
     height: 800px;
 
     h2 {
         font-size: 128px;
-        text-shadow: 2px 2px $off-black;
+        text-shadow: 3px 3px $off-black;
     }
 }
 

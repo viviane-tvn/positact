@@ -208,16 +208,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2696&q=80");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
   width: 100vw;
   height: 800px;
 }
 .header h2 {
   font-size: 128px;
-  text-shadow: 2px 2px #030512;
+  text-shadow: 3px 3px #030512;
 }
 
 .content__section {
