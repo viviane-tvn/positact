@@ -31,7 +31,7 @@
   color: #0180b6;
   text-decoration: none;
 }
-.our-action__link:link, .our-action__link:visited, .blogs__post--text a:link, .blogs__post--text a:visited {
+.action__references--link:link, .action__references--link:visited, .our-action__link:link, .our-action__link:visited, .blogs__post--text a:link, .blogs__post--text a:visited {
   color: #e2ecf9;
   text-decoration: none;
   background-color: #0180b6;
@@ -189,6 +189,58 @@
   text-align: center;
   font-size: 36px;
   font-style: italic;
+}
+.action__references {
+  margin: 50px;
+}
+.action__references--link:link {
+  background-color: #e2ecf9;
+  color: #0180b6;
+}
+.action__references--link:visited {
+  background-color: #e2ecf9;
+  color: #0180b6;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2696&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 800px;
+}
+.header h2 {
+  font-size: 128px;
+  text-shadow: 2px 2px #030512;
+}
+
+.content__section {
+  margin: 30px;
+}
+.content__section--text {
+  font-size: 24px;
+}
+.content__section--text h3 {
+  font-size: 48px;
+}
+
+.tweets {
+  padding: 20px;
+  background-color: #030512;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.tweets div {
+  width: 30%;
+  height: 70%;
 }
 
 body {

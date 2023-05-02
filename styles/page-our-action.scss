@@ -1,3 +1,4 @@
+@use "placeholders";
 @import "palette";
 
 %text-overlay {
@@ -121,6 +122,23 @@
             text-align: center;
             font-size: 36px;
             font-style: italic;
+        }
+    }
+
+    &__references {
+        margin: 50px;
+        &--link {
+            &:link {
+                @extend %blog-link-style;
+                background-color: $primary-background;
+                color: $primary-text;
+            }
+
+            &:visited {
+                @extend %blog-link-style;
+                background-color: $primary-background;
+                color: $primary-text;
+            }
         }
     }
 }
