@@ -66,20 +66,4 @@
             @extend %blog-link-style;
         }
     }
-
-    // &__link {
-    //     padding: 10px;
-    //     position: absolute;
-    //     // top: 425px;
-    //     // left: 50px;
-    //     text-align: center;
-
-    //     &:link {
-    //         @extend %blog-link-style;
-    //     }
-
-    //     &:visited {
-    //         @extend %blog-link-style;
-    //     }
-    // }
 }
