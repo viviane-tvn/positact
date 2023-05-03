@@ -2,37 +2,84 @@
 @use "placeholders";
 
 .our-action {
-    position: relative;
-    &__img {
-        width: 100vw;
-    }
+    width: 100vw;
+    height: 100vh;
+    // position: relative;
+
+    // &__img {
+    //     width: 100vw;
+    // }
 
     &__text {
         font-size: 24px;
         color: palette.$primary-background;
 
-        width: 30%;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        // display: flex;
+        // flex-direction: column;
 
         position: absolute;
         top: 17px;
         left: 50px;
+
+        &--heading {
+            margin: 20px;
+            font-size: 96px;
+        }
     }
 
-    &__link {
+    &__quotes {
+        width: 100%;
         padding: 10px;
         position: absolute;
-        top: 425px;
-        // left: 50px;
-        text-align: center;
 
-        &:link {
-            @extend %blog-link-style;
+        &--first {
+            width: 30%;
+            position: absolute;
+            top: 150px;
         }
 
-        &:visited {
+        &--second {
+            width: 30%;
+            position: absolute;
+            top: 300px;
+            right: 100px;
+        }
+
+        &--third {
+            width: 30%;
+            position: absolute;
+            top: 450px;
+        }
+
+        a {
+            @extend %blog-link-style;
+            padding: 10px;
+            margin: 10px;
+            width: 10%;
+            position: absolute;
+            top: 500px;
+            right: 100px;
+        }
+
+        a:visited {
             @extend %blog-link-style;
         }
     }
+
+    // &__link {
+    //     padding: 10px;
+    //     position: absolute;
+    //     // top: 425px;
+    //     // left: 50px;
+    //     text-align: center;
+
+    //     &:link {
+    //         @extend %blog-link-style;
+    //     }
+
+    //     &:visited {
+    //         @extend %blog-link-style;
+    //     }
+    // }
 }

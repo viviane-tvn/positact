@@ -11,6 +11,7 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"
         />
+        <link rel="icon" href="./assets/images/surf-icon.svg" sizes="32x32" />
 
         <title>Climate Action</title>
     </head>
@@ -36,27 +37,38 @@
             </section>
 
             <!-- Blog Posts -->
-            <article id="ourAction" class="our-action">
-                <img
-                    class="our-action__img"
-                    src="./assets/images/phone-nature1.jpg"
-                />
+            <article
+                id="ourAction"
+                class="our-action"
+                style="
+                    background-image: url(./assets/images/phone-nature1.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    position: relative;
+                "
+            >
                 <div class="our-action__text">
-                    <h2>What we do</h2>
-                    <p>
-                        Empowering individuals to take climate action by
-                        providing personalized recommendations, tracking
-                        progress, and connecting with others in a
-                        community-driven platform.
-                    </p>
-                    <p>
-                        By making sustainable living easy and fun, our app
-                        contributes to the global effort to combat climate
-                        change and create a better future for our planet.
-                    </p>
-                    <a class="our-action__link" href="./pages/our-action.html"
-                        >LEARN MORE</a
-                    >
+                    <h2 class="our-action__text--heading">What we do</h2>
+                    <div class="our-action__quotes">
+                        <p class="our-action__quotes--first">
+                            'Empowering individuals to take climate action by
+                            providing a source of positivity!'
+                        </p>
+                        <p class="our-action__quotes--second">
+                            'Change the world one click at a time: Our app
+                            supports your environmentally conscious choices with
+                            positive reinforcement, optimistic updates from
+                            around the globe and tracking of our collective
+                            progress!'
+                        </p>
+                        <p class="our-action__quotes--third">
+                            Stay off the negative news cycle and connect with
+                            your local community by making positive changes
+                            together.
+                        </p>
+                        <a href="./pages/our-action.html">LEARN MORE</a>
+                    </div>
                 </div>
             </article>
 

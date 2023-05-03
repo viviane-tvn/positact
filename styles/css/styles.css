@@ -31,7 +31,7 @@
   color: #0180b6;
   text-decoration: none;
 }
-.action__references--link:link, .action__references--link:visited, .our-action__link:link, .our-action__link:visited, .blogs__post--text a:link, .blogs__post--text a:visited {
+.action__references--link:link, .action__references--link:visited, .our-action__quotes a, .our-action__quotes a:visited, .blogs__post--text a:link, .blogs__post--text a:visited {
   color: #e2ecf9;
   text-decoration: none;
   background-color: #0180b6;
@@ -76,26 +76,49 @@
   padding: 10px;
 }
 .our-action {
-  position: relative;
-}
-.our-action__img {
   width: 100vw;
+  height: 100vh;
 }
 .our-action__text {
   font-size: 24px;
   color: #e2ecf9;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   position: absolute;
   top: 17px;
   left: 50px;
 }
-.our-action__link {
+.our-action__text--heading {
+  margin: 20px;
+  font-size: 96px;
+}
+.our-action__quotes {
+  width: 100%;
   padding: 10px;
   position: absolute;
-  top: 425px;
-  text-align: center;
+}
+.our-action__quotes--first {
+  width: 30%;
+  position: absolute;
+  top: 150px;
+}
+.our-action__quotes--second {
+  width: 30%;
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+.our-action__quotes--third {
+  width: 30%;
+  position: absolute;
+  top: 450px;
+}
+.our-action__quotes a {
+  padding: 10px;
+  margin: 10px;
+  width: 10%;
+  position: absolute;
+  top: 500px;
+  right: 100px;
 }
 .action__top--text-right, .action__top--text-left {
   width: 30%;
